@@ -1,0 +1,29 @@
+.group-view-counts {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  color: var(--primary-medium);
+  font-size: var(--font-down-1);
+  white-space: nowrap;
+
+  .d-icon {
+    font-size: 0.9em;
+  }
+}
+
+.group-view-counts-topic {
+  margin: 0.25em 0 0.75em;
+}
+
+// Inside the post meta-data row, sit beside the date like the core indicators.
+.post-infos .group-view-counts--post {
+  margin-right: 0.5em;
+}
+
+// Next to the topic title: keep it small and on the same line.
+.fancy-title + .group-view-counts-topic,
+h1 .group-view-counts-topic {
+  display: inline-block;
+  margin: 0 0 0 0.5em;
+  vertical-align: middle;
+}

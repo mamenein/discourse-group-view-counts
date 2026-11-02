@@ -1,0 +1,27 @@
+visible_to_groups:
+  type: list
+  list_type: group
+  # 2 = the automatic "moderators" group.
+  default: "2"
+  # Discourse resolves membership on the server and sends the browser only a
+  # boolean (settings.user_in_visible_to_groups). The group IDs never reach
+  # the client. Older Discourse versions ignore this flag; the component then
+  # falls back to a client-side check.
+  resolve_group_membership: true
+
+show_topic_views:
+  type: bool
+  default: true
+
+topic_views_outlet:
+  type: enum
+  default: topic-above-post-stream
+  choices:
+    - topic-above-post-stream
+    - topic-title-suffix
+    - topic-above-posts
+    - topic-area-bottom
+
+show_post_reads:
+  type: bool
+  default: false

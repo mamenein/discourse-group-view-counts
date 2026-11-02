@@ -1,0 +1,15 @@
+de:
+  theme_metadata:
+    description: "Zeigt Aufrufe von Themen und Lesezahlen von Beiträgen nur den Gruppen, die du auswählst (Standard: Moderatoren)."
+    settings:
+      visible_to_groups: "Gruppen, die die Aufrufe sehen. Standard: Moderatoren. Administratoren sind nicht in der Gruppe Moderatoren; füge die Gruppe admins hinzu, wenn sie die Zahlen auch sehen sollen."
+      show_topic_views: "Aufrufe des Themas auf der Themenseite zeigen."
+      topic_views_outlet: "Wo die Aufrufe auf der Themenseite erscheinen."
+      show_post_reads: "Lesezahl an jedem Beitrag zeigen, neben dem Datum."
+  topic_views:
+    one: "%{count} Aufruf"
+    other: "%{count} Aufrufe"
+  post_reads:
+    one: "Gelesen von %{count} Person"
+    other: "Gelesen von %{count} Personen"
+  restricted_hint: "nur für ausgewählte Gruppen sichtbar"

@@ -1,0 +1,9 @@
+{
+  "name": "Group View Counts",
+  "component": true,
+  "authors": "Mehdi Roshan Fekr (Amenein)",
+  "about_url": "https://github.com/mamenein/discourse-group-view-counts",
+  "license_url": "https://github.com/mamenein/discourse-group-view-counts/blob/main/LICENSE",
+  "theme_version": "0.1.0",
+  "minimum_discourse_version": "3.3.0"
+}

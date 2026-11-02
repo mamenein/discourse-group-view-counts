@@ -1,0 +1,15 @@
+en:
+  theme_metadata:
+    description: "Shows topic view counts and post read counts only to the groups you choose (default: moderators)."
+    settings:
+      visible_to_groups: "Groups that see view counts. Default: moderators. Admins are not in the moderators group; add the admins group if they should see counts too."
+      show_topic_views: "Show the topic view count on the topic page."
+      topic_views_outlet: "Where the topic view count appears on the topic page."
+      show_post_reads: "Show the read count on every post, next to the post date."
+  topic_views:
+    one: "%{count} view"
+    other: "%{count} views"
+  post_reads:
+    one: "Read by %{count} user"
+    other: "Read by %{count} users"
+  restricted_hint: "only visible to selected groups"
